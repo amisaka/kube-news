@@ -36,7 +36,7 @@ jobs:
           context: ./src
           push: true
           tags:
-            amisaka/kube-news:latest
-            amisaka/kube-news:v${{github.run_number}}
+            ${{secrets.DOCKERHUB_USER}}/kube-news:latest
+            ${{secrets.DOCKERHUB_USER}}/kube-news:v${{github.run_number}}
             
             
