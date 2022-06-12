@@ -37,6 +37,6 @@ jobs:
           push: true
           tags:
             amisaka/kube-news:latest
-            amisaka/kube-news:${{github.run_number}}
+            amisaka/kube-news:v${{github.run_number}}
             
             
